@@ -9,4 +9,8 @@ class User < ApplicationRecord
   def admin?
     role.name == 'Admin'
   end
+
+  def self.ransackable_attributes(auth_object = nil)
+    %w(email role)
+  end
 end
