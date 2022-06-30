@@ -117,7 +117,8 @@ Devise.setup do |config|
   # The number of stretches used for generating the hashed password are stored
   # with the hashed password. This allows you to change the stretches without
   # invalidating existing passwords.
-  #
+  #tp_authentication_realm = 'Application'
+
   # Limiting the stretches to just one in testing will increase the performance of
   # your test suite dramatically. However, it is STRONGLY RECOMMENDED to not use
   # a value less than 10 in other environments. Note that, for bcrypt (the default
